@@ -1,0 +1,166 @@
+@charset "utf-8";
+
+.ecuaessence {    /*Title*/
+    color: #582f00;
+    text-align: center;
+    font-size: 80px;
+    text-shadow: 2px 2px 3px #5a25036a;
+}
+
+body {
+    background-color: #f7edda;
+    font-family: Dosis;
+    display: inline;
+}
+
+h2 {
+    /*Section name color*/
+    color: #6e4b00;
+}
+
+h3,
+h4 {
+    /*Story and slogan styling*/
+    color: #705212;
+    padding-inline: 10%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.food-banner {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+
+/*nav bar styling*/
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f7eddade;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    padding-top: -1rem;
+    transition: box-shadow 0.3s ease; /* Smooth transition for the shadow */
+
+}
+#navbar a {
+    position: sticky;
+    font-weight: bold;
+    font-size: 20px;
+    float: inline-end;
+    display: block;
+    color: #8b4a00;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    
+}
+#navbar a:hover {
+    shape-margin: 10%;
+    background-color: #45250028;
+}
+
+.p {
+    font-weight: 125%;
+    font-size: 18px;
+}
+
+.container {
+    padding: 2em;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*menu styling*/
+.menu {
+    font-size: 15px;
+}
+.menu-group {
+    display: grid;
+    gap: 1.5em;
+    padding: 1.5em 0;
+    grid-template-columns: repeat(2, 1.5fr);
+}
+.menu-group-heading {
+    margin: 0;
+    padding-bottom: .5em;
+    border-bottom: 2px solid rgba(139, 74, 0, 0.232);
+}
+.menu-image {
+    float: inline-start;
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+.menu-item-name {
+    margin-right: 1.5em;
+}
+.menu-item-description {
+    line-height: 1.6;
+}
+
+/*footer*/
+.footer .container {
+    padding-left: 0;
+    padding-top: 16px;
+    padding-bottom: 20%;
+}
+.footer .container h4 {
+    font-family: Dosis;
+    font-size: 35px;
+    font-weight: 600;
+    color: #703c01;
+    line-height: 1.4;
+    text-align: left;
+}
+.footer .container p {
+    font-family: Dosis;
+    font-size: 24px;
+    font-weight: 500;
+    color: #8b4a00;
+    line-height: 1.5em;
+}
+.footer .container .location { /*main location container*/
+    width: 43%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 3%;
+}
+.footer .container .location p { /*phone number*/
+    color: #8b4a00;
+    text-decoration: none;
+    font-family: Dosis;
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+.footer .container .hours {
+    width: auto;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    padding-inline-start: 3%;
+}
+
+#goUpButton {
+    position: fixed;
+    bottom: 45px;
+    right: 25px;
+    z-index: 99;
+    font-size: 18px;
+    background-color: #bb7600b6;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+  }
+
